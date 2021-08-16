@@ -5,6 +5,7 @@
 - Near to stock configuration
 - Up to Date (at least I will try :P)
 - TMC2208 for all axis except Extruder (TMC2209)
+- !DISABLED! Filament Sensor
 - Bang-Bang Hotbed Method (instead of PID-Method)
 - Tweaked Junction Deviation and Acceleration
 - Tweaked Step-Value for Extruder (always tune this by yourself!)
