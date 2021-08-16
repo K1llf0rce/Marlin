@@ -605,9 +605,9 @@
     //#define DEFAULT_Ki_LIST {   1.08,   1.08 }
     //#define DEFAULT_Kd_LIST { 114.00, 114.00 }
   //#else
-    #define  DEFAULT_Kp 15.94
-    #define  DEFAULT_Ki 1.17
-    #define  DEFAULT_Kd 54.19
+    #define  DEFAULT_Kp 15.55
+    #define  DEFAULT_Ki 1.07
+    #define  DEFAULT_Kd 56.68
   //#endif
 #endif // PIDTEMP
 
@@ -924,7 +924,7 @@
  * Override with M92
  *                                      X, Y, Z [, I [, J [, K]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 93.4 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.5, 80.5, 400, 96.3 }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -944,7 +944,7 @@
  * Override with M201
  *                                      X, Y, Z [, I [, J [, K]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_MAX_ACCELERATION      { 3000, 2500, 60, 10000 }
+#define DEFAULT_MAX_ACCELERATION      { 2500, 2500, 60, 10000 }
 
 //#define LIMITED_MAX_ACCEL_EDITING     // Limit edit via M201 or LCD to DEFAULT_MAX_ACCELERATION * 2
 #if ENABLED(LIMITED_MAX_ACCEL_EDITING)
@@ -959,9 +959,9 @@
  *   M204 R    Retract Acceleration
  *   M204 T    Travel Acceleration
  */
-#define DEFAULT_ACCELERATION          2000    // X, Y, Z and E acceleration for printing moves
-#define DEFAULT_RETRACT_ACCELERATION  3000    // E acceleration for retracts
-#define DEFAULT_TRAVEL_ACCELERATION   3000    // X, Y, Z acceleration for travel (non printing) moves
+#define DEFAULT_ACCELERATION          1800    // X, Y, Z and E acceleration for printing moves
+#define DEFAULT_RETRACT_ACCELERATION  2500    // E acceleration for retracts
+#define DEFAULT_TRAVEL_ACCELERATION   1800    // X, Y, Z acceleration for travel (non printing) moves
 
 /**
  * Default Jerk limits (mm/s)
