@@ -1,9 +1,21 @@
-# Marlin 3D Printer Firmware
+# Marlin for the original Anycubic i3 Mega
 
-![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
-![GitHub contributors](https://img.shields.io/github/contributors/marlinfirmware/marlin.svg)
-![GitHub Release Date](https://img.shields.io/github/release-date/marlinfirmware/marlin.svg)
-[![Build Status](https://github.com/MarlinFirmware/Marlin/workflows/CI/badge.svg?branch=bugfix-2.0.x)](https://github.com/MarlinFirmware/Marlin/actions)
+## What to expect from my builds:
+
+- Near to stock configuration
+- Up to Date (at least I will try :P)
+- TMC2208 for all axis except Extruder (TMC2209)
+- Bang-Bang Hotbed Method (instead of PID-Method)
+- Tweaked Junction Deviation and Acceleration
+- Tweaked Step-Value for Extruder (always tune this by yourself!)
+- Tweaked Hotend PID-Values (also, always tune this by yourself!)
+
+## Big Thanks to
+
+  - [davidramiro](https://github.com/davidramiro/Marlin-Ai3M-2.0.x) (for his config for the i3 Mega, which I used as a baseline)
+  - All people who contributed to Marlin!
+
+# Marlin 3D Printer Firmware
 
 <img align="right" width=175 src="buildroot/share/pixmaps/logo/marlin-250.png" />
 
