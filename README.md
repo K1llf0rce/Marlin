@@ -7,6 +7,8 @@
 - TMC2208 for all axis except Extruder (TMC2209)
 - !DISABLED! Filament Sensor
 - Bang-Bang Hotbed Heating Method (instead of PID-Method)
+- Linear Advance enabled (Default Value: 0)
+- S-Curve Acceleration enabled
 - Tweaked Junction Deviation and Acceleration (optimized for sharper corners)
 - Tweaked default Step-Value for Extruder ([based on this extruder design](https://www.thingiverse.com/thing:2832065))
 - Tweaked default Hotend PID-Values
