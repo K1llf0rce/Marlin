@@ -6,6 +6,7 @@
 - Up to Date (at least I will try :P)
 - TMC2208 for all axis except Extruder (TMC2209)
 - !DISABLED! Filament Sensor
+- !DISABLED! Advanced Pause Feature
 - Bang-Bang Hotbed Heating Method (instead of PID-Method)
 - Linear Advance enabled (Default Value: 0)
 - S-Curve Acceleration enabled
