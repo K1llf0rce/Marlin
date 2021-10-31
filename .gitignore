@@ -173,10 +173,3 @@ __pycache__
 
 # IOLogger logs
 *_log.csv
-
-# Simulation / Native
-eeprom.dat
-imgui.ini
-
-#checksums
-*.sha512sum
