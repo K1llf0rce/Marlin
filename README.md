@@ -4,8 +4,8 @@
 
 - Near to stock configuration
 - Up to Date (at least I will try :P)
+- Support for ([FYSTEC V2.1 Mini12864 Panel](https://wiki.fysetc.com/Mini12864_Panel/))
 - TMC2208 for all axis except Extruder (TMC2209)
-- !DISABLED! Filament Sensor
 - Bang-Bang Hotbed Heating Method (instead of PID-Method)
 - Linear Advance enabled (Default Value: 0)
 - S-Curve Acceleration enabled
