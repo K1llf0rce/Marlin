@@ -1,14 +1,17 @@
 # Marlin for the original Anycubic i3 Mega
 
-## What to expect from my builds:
+## The main thing about my builds is
 
-- Near to stock configuration
+- Support for ([FYSTEC V2.1 Mini12864 Display](https://wiki.fysetc.com/Mini12864_Panel/))
+
+## What else to expect from my builds:
+
 - Up to Date (at least I will try :P)
-- Support for ([FYSTEC V2.1 Mini12864 Panel](https://wiki.fysetc.com/Mini12864_Panel/))
 - TMC2208 for all axis except Extruder (TMC2209)
 - Bang-Bang Hotbed Heating Method (instead of PID-Method)
 - Linear Advance enabled (Default Value: 0)
 - S-Curve Acceleration enabled
+- BabyStepping enabled
 - Tweaked Junction Deviation and Acceleration (optimized for sharper corners)
 - Tweaked default Step-Value for Extruder ([based on this extruder design](https://www.thingiverse.com/thing:2832065))
 - Tweaked default Hotend PID-Values
