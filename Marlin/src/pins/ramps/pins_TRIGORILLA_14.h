@@ -90,7 +90,21 @@
 //
 // Limit Switches
 //
-//#define ANYCUBIC_4_MAX_PRO_ENDSTOPS
+//Adjusted for new LCD
+
+#define Y_STOP_PIN                          42
+#define Z2_MIN_PIN                          43
+
+#ifndef Z_MIN_PROBE_PIN
+    #define Z_MIN_PROBE_PIN                    2
+#endif
+#ifndef FIL_RUNOUT_PIN
+  #if ENABLED(ANYCUBIC_LCD_CHIRON)
+    #define FIL_RUNOUT_PIN                  33
+  #else
+    #define FIL_RUNOUT_PIN                  19
+  #endif
+#endif
 
 #if ENABLED(ANYCUBIC_4_MAX_PRO_ENDSTOPS)
   #define X_MAX_PIN                           43
