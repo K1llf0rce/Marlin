@@ -7,9 +7,9 @@
 ## What else to expect from my builds:
 
 - Up to Date (at least I will try :P)
-- TMC2208 for all axis except Extruder (TMC2209)
+- TMC2208 for all axis except TMC2209 on Extruder (all reversed in software)
 - Bang-Bang Hotbed Heating Method (instead of PID-Method)
-- Linear Advance enabled (Default Value: 0)
+- Linear Advance enabled (Default Value: 0; Doesn't work with TMC2208 on Extruder!)
 - S-Curve Acceleration enabled
 - BabyStepping enabled
 - Tweaked Junction Deviation and Acceleration (optimized for sharper corners)
