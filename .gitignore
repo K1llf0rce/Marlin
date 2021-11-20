@@ -171,3 +171,6 @@ __pycache__
 # Simulation / Native
 eeprom.dat
 imgui.ini
+
+#checksums
+.sha512sum
