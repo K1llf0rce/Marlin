@@ -173,4 +173,4 @@ eeprom.dat
 imgui.ini
 
 #checksums
-.sha512sum
+*.sha512sum
