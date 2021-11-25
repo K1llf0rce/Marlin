@@ -12,7 +12,7 @@
 - Linear Advance enabled (Default Value: 0; Doesn't work with TMC2208 on Extruder!)
 - S-Curve Acceleration enabled
 - BabyStepping enabled
-- Tweaked Junction Deviation and Acceleration (optimized for sharper corners)
+- Tweaked Junction Deviation and Acceleration (optimized for sharper corners, less ringing)
 - Tweaked default Step-Value for Extruder ([based on this extruder design](https://www.thingiverse.com/thing:2832065))
 - Tweaked default Hotend PID-Values
 
