@@ -12,9 +12,19 @@
 - Linear Advance enabled (Default Value: 0; Doesn't work with TMC2208 on Extruder!)
 - S-Curve Acceleration enabled
 - BabyStepping enabled
+- Manual Mesh Bed Leveling enabled
 - Tweaked Junction Deviation and Acceleration (optimized for sharper corners, less ringing)
 - Tweaked default Step-Value for Extruder ([based on this extruder design](https://www.thingiverse.com/thing:2832065))
 - Tweaked default Hotend PID-Values
+
+## Notes about Mesh Bed Leveling
+
+After you went through the Leveling process, don't forget to adjust your Z-Offset accordingly and put the following in your start G-Code:
+```
+M501 ; load saved settings
+M420 S1 ; apply mesh
+```
+Make sure to put it **AFTER** the G28 Homing Command!
 
 ## Big Thanks to
 
