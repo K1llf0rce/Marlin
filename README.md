@@ -1,3 +1,7 @@
+# Note
+
+I have switched to Klipper, so I'll archive this Repo for now as I don't plan on moving back to Marlin yet.
+
 # Marlin for the original Anycubic i3 Mega
 
 ## The main thing about my builds is
